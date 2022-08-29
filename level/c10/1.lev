@@ -1,0 +1,16 @@
+#define ix:ic,ds<bx
+#next
+#perfect 39
+wa -- wa -- wa -- -- -- bx --
+cy bx -- wa -- bx wa bx -- --
+-- -- bx bx wa -- bx -- wa --
+-- bx -- -- -- bx bx -- bx bx
+wa -- wa bx bx -- wa -- bx --
+-- bx bx wa wa -- bx -- -- bx
+-- -- -- -- -- -- -- wa -- wa
+bx wa -- bx bx wa bx wa ix --
+wa -- -- bx bx -- -- -- ic --
+-- bx bx -- -- bx -- wa ic --
+wa wa wa wa wa -- wa wa wa wa
+fill
+tx<Welcome_to_the_last_trial

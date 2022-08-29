@@ -1,0 +1,8 @@
+#next 11-0
+#perfect 1
+#define hc:hd<ds+cy
+#define hw:hd<in+wa
+#define 00:tx<Welcome_to_Closs...\?
+#define fd:nm<cy
+hc cy -- -- -- -- -- -- -- -- -- -- hw fd
+00 -- -- -- -- -- -- -- -- -- -- -- hw --

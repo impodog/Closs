@@ -1,0 +1,9 @@
+#next
+#perfect 7
+#defgrav lt
+wa -- wa -- -- --
+cy sw wa -- wa --
+lf -- -- sp wa ds<lf
+wa wa wa wa wa wa
+tx<Switches_change_gravity
+tx<Walk_through_to_flip_them

@@ -1,0 +1,9 @@
+#next
+#perfect 15
+wa    wa wa -- -- wa -- --
+cy    wp wa bx -- wa -- --
+wa    wa wa wp -- wa -- --
+ds<cy -- -- sp -- wa -- --
+wa    wa wa wa wa wa -- --
+tx<Warps_teleport_void_objects_between_them
+tx<Warps_can_only_teleport_once_every_turn

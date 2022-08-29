@@ -1,0 +1,15 @@
+#next
+#perfect 80
+1b -- -- -- bx bx -- --
+-- cy bx bx -- -- bx --
+-- -- bb -- -- wa -- --
+-- bb -- bx -- -- bx --
+-- bx bx -- bx wa wa --
+bb -- -- -- -- -- -- bx
+-- -- bx bx -- -- bx 1b
+-- bx -- wa wa wa -- --
+-- -- -- -- 1b -- -- bx
+-- -- bx -- bx -- bx --
+fill
+tx<Time_for_some_color_changes
+tx<But_it's_still_very_easy...

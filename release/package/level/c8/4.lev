@@ -1,0 +1,6 @@
+#next
+#perfect 11
+ic cy    ic    ic    wp
+wa ic,bx bx    ic    wa
+ic ic    ic    ic,bx wa
+wp ic    ds<bx ic    wa

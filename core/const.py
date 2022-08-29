@@ -1,0 +1,36 @@
+import pygame,math
+__version__="1.0.2"
+__release_date__="8/29/2022"
+SCR_LENGTH=1680
+SCR_WIDTH=945
+CYAN=(0,255,234)
+WHITE=(255,255,255)
+BLACK=(0,0,0)
+CYAN_SIZE=(30,30)
+EMPTY_SIZE=(50,50)
+PURPLE=(200,0,200)
+BLUE=(0,100,255)
+GREEN=(0,200,0)
+YELLOW=(200,200,0)
+RED=(200,0,0)
+LIGHTRED=(255,100,100)
+ACHPIC_SIZE=(50,50)
+ACH_SEP=20
+EACH_PAGE=math.floor((SCR_WIDTH-50)/(ACHPIC_SIZE[1]+ACH_SEP))
+ACH_DES_START=600
+GAL_TITLEY=800
+GAL_TEXTY=850
+EACH=55
+UP=(0,-1)
+DOWN=(0,1)
+LEFT=(-1,0)
+RIGHT=(1,0)
+NOGRAV=(0,0)
+LENGTH=55
+EMPTY_START=(LENGTH-EMPTY_SIZE[0])//2
+PLAYER_KEYS=(pygame.K_UP,pygame.K_DOWN,pygame.K_LEFT,pygame.K_RIGHT)
+INFO_STRING="""Closs Information
+Version : %s
+Release Date : %s
+
+Press ESC to quit."""%(__version__,__release_date__)

@@ -1,0 +1,9 @@
+#next
+#perfect 10
+ds<bx,cy bx sp -- --
+wa       -- wa bx --
+--       -- -- -- wa
+--       bx wa wa wa
+--       -- wa wa wa
+wa       wa wa wa wa
+tx<Spikes_kill_the_player

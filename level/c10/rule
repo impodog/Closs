@@ -1,0 +1,16 @@
+//dest rules
+#define 1x:ds<bx
+#define 1b:ds<bb
+#define 1f:ds<lf
+#define 1k:ds<wk
+//conveyor rules
+#define 2u:cv<up
+#define 2d:cv<dw
+#define 2l:cv<lt
+#define 2r:cv<rt
+//ice overlapping
+#define 3x:ic,bx
+#define 3b:ic,bb
+#define 3s:ic,sw
+//fill line
+#define fill:(wa*[len])

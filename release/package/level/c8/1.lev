@@ -1,0 +1,12 @@
+#next
+#perfect 19
+sp sp sp sp ds<bx sp sp
+sp cy ic ic --    ic sp
+sp ic -- -- ic    ic sp
+sp sp ic bx ic    ic sp
+sp -- -- ic ic    ic sp
+sp -- ic -- --    ic sp
+sp sp sp -- --    sp sp
+wa wa wa wa wa    wa wa
+tx<Objects_slide_on_ice_in_their_direction
+tx<You_can_also_push_objects_on_ice
