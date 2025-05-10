@@ -1,0 +1,70 @@
+#import stdlangs
+#iflev 1
+    #if EN
+        #name Just Don't!
+        #typedef tx00:tx<$To_win\,_don't_put_the_item_on_red_text
+        #typedef tx01:tx<$You_also_need_to_complete_green_tasks
+    #else if ZH_CN
+        #name 停下就好！
+        #typedef tx00:tx<$不要把对应物体放在红色文字上
+        #typedef tx01:tx<$你还是要完成绿色任务
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 2
+    #if EN
+        #name Moving Straight
+    #else if ZH_CN
+        #name 直接移动
+    #endif
+#else iflev 3
+    #if EN
+        #name Living Apart
+    #else if ZH_CN
+        #name 分居
+    #endif
+#else iflev 4
+    #if EN
+        #name Refuse to Move
+    #else if ZH_CN
+        #name 拒绝移动
+    #endif
+#else iflev 5
+    #if EN
+        #name Why Push?
+    #else if ZH_CN
+        #name 为什么推？
+    #endif
+#else iflev 6
+    #if EN
+        #name Being Anywhere
+    #else if ZH_CN
+        #name 在任何地方
+    #endif
+#else iflev 7
+    #if EN
+        #name Hooky Path
+    #else if ZH_CN
+        #name 钩子小路
+    #endif
+#else iflev 8
+    #if EN
+        #name Linal Attack
+    #else if ZH_CN
+        #name 线性攻势
+    #endif
+#else iflev 9
+    #if EN
+        #name Leaf Area
+    #else if ZH_CN
+        #name 叶区
+    #endif
+#else iflev 10
+    #if EN
+        #name Ultimate Train
+        #typedef tx00:tx<$Empty_requires_nothing_on_it
+    #else if ZH_CN
+        #name 终极火车
+        #typedef tx00:tx<$空（empty）要求上面什么也没有
+    #endif
+    #pymacro _tx_:"tx00"
+#endif

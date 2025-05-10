@@ -7,7 +7,7 @@
 #define 4v:nm<cv
 #define 4p:nm<wp
 #define 4g:nm<gw
-#define 4c:nm<cr
+#define 4r:nm<cr
 #define 4i:nm<ic
 #define 4f:nm<lf
 #define 4w:nm<sw
@@ -15,18 +15,10 @@
 #define 4n:nm<nm
 #define 5d:ds<ds
 #define 5n:nm<nm
-#define 00:tx<Thanks_a_lot_for_playing!
-#define 01:tx<I_have_many_plans_in_the_future._And_the_game_should_continue_to_update
-#define 02:tx<But_it's_enough_for_now!
-#define 03:tx<If_you_have_met_any_problems\,_send_an_email_to\:_liyz20\@163.com
-#define 04:tx<Now\,_please_have_a_look_at_those_items_existed!_You_might_notice_some_tags_never_appeared_in_the_main_game
-#define 05:tx<Also\,_you_can_play_through_the_game_again!_You_should_see_some_changes_to_the_step_counter
-#define 06:tx<You_will_unlock_a_something_after_getting_all\-perfect!
-#define 07:tx<\(ESC_to_quit_playing\,_or_do_a_move_to_win...nothing\)
 #define 2u:cv<up
 #defgrav up
 cy -- wa -- bx -- bb -- sp -- wk -- 2u -- wp -- gw -- cr -- ic -- lf -- sw -- 5d -- 5n
-4c -- 4a -- 4x -- 4b -- 4s -- 4k -- 4v -- 4p -- 4g -- 4c -- 4i -- 4f -- 4w -- 4d -- 4n
+4c -- 4a -- 4x -- 4b -- 4s -- 4k -- 4v -- 4p -- 4g -- 4r -- 4i -- 4f -- 4w -- 4d -- 4n
 00
 01
 02
@@ -35,3 +27,4 @@ cy -- wa -- bx -- bb -- sp -- wk -- 2u -- wp -- gw -- cr -- ic -- lf -- sw -- 5d
 05
 06
 07
+08

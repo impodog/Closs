@@ -1,0 +1,10 @@
+#iflang en
+    #name How We Began(This is the first level of the game)
+#else iflang zh-cn
+    #name 梦的起点（这是这个游戏的第一关）
+#import std
+cy bx -- -- --
+-- -- -- -- --
+-- -- bx -- --
+-- -- -- -- ds<bx
+-- -- -- bx --

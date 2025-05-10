@@ -1,0 +1,70 @@
+#import stdlangs
+#iflev 1
+    #if EN
+        #name Against Rules
+        #typedef tx00:tx<You_can_push_greenwarps_by_yourself
+        #typedef tx01:tx<But_object_pushed_in_greenwarps_will_be_teleported
+    #else if ZH_CN
+        #name 违反规则
+        #typedef tx00:tx<你可以自行推动绿色扭曲
+        #typedef tx01:tx<但被推入绿色扭曲的物体会被传送
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 2
+    #if EN
+        #name Tricky Push
+    #else if ZH_CN
+        #name 技巧推
+    #endif
+#else iflev 3
+    #if EN
+        #name Box Wanted
+    #else if ZH_CN
+        #name 招聘箱子
+    #endif
+#else iflev 4
+    #if EN
+        #name Deep Deep Valley
+    #else if ZH_CN
+        #name 深谷深处
+    #endif
+#else iflev 5
+    #if EN
+        #name Line Up!
+        #typedef tx00:tx<Crushers_destroy_boxes
+    #else if ZH_CN
+        #name 站成一列！
+        #typedef tx00:tx<碾压机（crusher）摧毁箱子
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 6
+    #if EN
+        #name Away from Walls
+    #else if ZH_CN
+        #name 远离墙壁
+    #endif
+#else iflev 7
+    #if EN
+        #name Meet Me in the Middle
+    #else if ZH_CN
+        #name 中间会合
+    #endif
+#else iflev 8
+    #if EN
+        #name Wall Frames
+    #else if ZH_CN
+        #name 墙帧
+    #endif
+#else iflev 9
+    #if EN
+        #name Double Decker Spiky
+    #else if ZH_CN
+        #name 双层尖刺
+    #endif
+#else iflev 10
+    #if EN
+        #name The Great Warp Table
+    #else if ZH_CN
+        #name 伟大的扭曲表
+    #endif
+#endif

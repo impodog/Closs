@@ -1,0 +1,6 @@
+//Additional picture instances
+#if get_import_arg("once",True)
+    #typedef pw:pic<(getpic<(in<wa))
+    #typedef ps:pic<(getpic<(in<sp))
+    #pymacro wall_tele(chapter,level):f"levsw<{chapter}<{level},pw"
+#endif

@@ -1,7 +1,13 @@
 #next
 #perfect 21
+#import addpic
+#import hiding
+#define hk:hdky,pw
+#define hl:hdlk,pw
+#define pt:pe,_tx_
+#define pe:levsw<0<41657
 cy    -- bx wp ds<bb --
-wa    -- wa -- wa    wa
-ds<bx wp bb -- --    wa
-wa    wa wa wa wa    wa
-tx<Warps_teleport_tags
+wa    -- wa -- wa    hl
+ds<bx wp bb -- --    hk
+wa    wa wa hl wa    pw
+pt    -- -- -- hdky  --

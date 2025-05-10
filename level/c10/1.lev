@@ -1,3 +1,4 @@
+#import std
 #define ix:ic,ds<bx
 #next
 #perfect 39
@@ -13,4 +14,4 @@ wa -- -- bx bx -- -- -- ic --
 -- bx bx -- -- bx -- wa ic --
 wa wa wa wa wa -- wa wa wa wa
 fill
-tx<Welcome_to_the_last_trial
+_tx_

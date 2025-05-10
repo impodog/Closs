@@ -7,5 +7,4 @@ sp ic ic,sw bx    ic ic wa
 wa ic --    ic,bx ic ic wa
 wa -- --    ic    ic ic wa
 wa wa wa    wa    wa wa wa
-tx<In_this_level\,_gravity_defaults_to_up
-tx<The_switches'_direction_is_the_same_with_gravity
+_tx_

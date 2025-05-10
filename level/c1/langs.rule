@@ -1,0 +1,89 @@
+#import stdlangs
+#iflev 1
+    #if EN
+        #name The Beginning of the End
+        #typedef tx00:tx<$Welcome_to_Closs
+        #typedef tx01:tx<$Move_the_cyan_block_with_direction_keys
+        #typedef tx02:tx<$Move_a_specifc_block_to_the_green_text_to_win
+        #typedef tx03:tx<$In_this_case\,_just_move_yourself_there
+        #typedef tx04:tx<$Also\,_the_grey_tiles_refer_to_empty\,_which_you_can_step_on
+    #else if ZH_CN
+        #name 预示结局的先兆
+        #typedef tx00:tx<$欢迎来到Closs
+        #typedef tx01:tx<$使用方向键移动青色方块（cyan）
+        #typedef tx02:tx<$把绿色文字所写的方块移到对应位置即可胜利
+        #typedef tx03:tx<$现在，只需把你自己移过去就行
+        #typedef tx04:tx<$还有，灰色的方格是空的，你可以移过去
+    #endif
+    #pymacro _tx_:"tx00\ntx01\ntx02\ntx03\ntx04"
+#else iflev 2
+    #if EN
+        #name Surrounded
+        #typedef tx00:tx<$Walls_block_your_way
+    #else if ZH_CN
+        #name 包围
+        #typedef tx00:tx<$墙阻挡你前进
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 3
+    #if EN
+        #name Not Even a Maze
+    #else if ZH_CN
+        #name 算不上迷宫
+    #endif
+#else iflev 4
+    #if EN
+        #name Corners
+        #typedef tx00:tx<$The_box_can_be_pushed
+        #typedef tx01:tx<$R_to_restart
+    #else if ZH_CN
+        #name 角落
+        #typedef tx00:tx<$箱子（box）可以被推动
+        #typedef tx01:tx<$按R重玩关卡
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 5
+    #if EN
+        #name Located Motion
+        #typedef tx00:tx<$A_box_can_also_be_a_target
+        #typedef tx01:tx<$R_to_restart
+    #else if ZH_CN
+        #name 定点移动
+        #typedef tx00:tx<$箱子也可以作为终点目标
+        #typedef tx01:tx<$按R重玩关卡
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 6
+    #if EN
+        #name Box Trail
+        #typedef tx00:tx<$You_can_push_many_boxes_at_once
+    #else if ZH_CN
+        #name 箱子小道
+        #typedef tx00:tx<$你可以一次推动多个箱子
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 7
+    #if EN
+        #name Looping
+    #else if ZH_CN
+        #name 循环
+    #endif
+#else iflev 8
+    #if EN
+        #name Double Looping
+    #else if ZH_CN
+        #name 双重循环
+    #endif
+#else iflev 9
+    #if EN
+        #name Edge of a Circle
+    #else if ZH_CN
+        #name 圆边
+    #endif
+#else iflev 10
+    #if EN
+        #name Box Sea
+    #else if ZH_CN
+        #name 箱子之海
+    #endif
+#endif

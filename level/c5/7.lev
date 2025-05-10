@@ -1,9 +1,14 @@
 #next
 #perfect 12
+#define wk:pw,hdky
+#define wl:pw,hdlk
+#define ss:levsw<0<2290857108694468844,pw
+#import hiding
+#import addpic
 -- cy cv<dw ds<bx cv<lt --
 wa -- bb    sp    sp    wa
 wa -- bx    sp    --    wa
 wa cy --    --    --    wa
-wa wa wa    --    wa    wa
-wa wa wa    wa    wa    wa
-tx<C4\:conveyor
+wa wa wa    --    wk    wa
+wa wa wa    wa    wl    ss
+_tx_

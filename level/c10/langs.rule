@@ -1,0 +1,91 @@
+#import stdlangs
+#iflev 1
+    #if EN
+        #name Box Sea II
+        #typedef tx00:tx<$Welcome_to_the_last_trial
+    #else if ZH_CN
+        #name 箱海 二代
+        #typedef tx00:tx<$欢迎来到最后的审判
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 2
+    #if EN
+        #name Colorful Palace
+        #typedef tx00:tx<$Time_for_some_color_changes
+        #typedef tx01:tx<$But_it's_still_very_easy...
+    #else if ZH_CN
+        #name 彩色宫殿
+        #typedef tx00:tx<$是时候来些颜色改变了
+        #typedef tx01:tx<$但它还是很简单……
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 3
+    #if EN
+        #name Railway Transport
+        #typedef tx00:tx<$Three!_Three_of_them!
+        #typedef tx01:tx<$\(WARNING\:EXTREMELY_TEDIOUS\)
+    #else if ZH_CN
+        #name 铁道运输
+        #typedef tx00:tx<$三个！他们有三个！
+        #typedef tx01:tx<$（警告：极其冗长）
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 4
+    #if EN
+        #name Open the Gate
+        #typedef tx00:tx<$Now_conveyors_add_to_the_level!
+        #typedef tx01:tx<$Also_weakboxes
+    #else if ZH_CN
+        #name 开闸
+        #typedef tx00:tx<$现在传送带加入了游戏！
+        #typedef tx01:tx<$还有弱箱
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 5
+    #if EN
+        #name Symmetry pt.2
+        #typedef tx00:tx<$Oh\,_look!
+        #typedef tx01:tx<$It's_your_favourite_level!
+    #else if ZH_CN
+        #name 对称之二
+        #typedef tx00:tx<$快看！
+        #typedef tx01:tx<$这是你最喜欢的关卡！
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 6
+    #if EN
+        #name Chaos and Warp
+        #typedef tx00:tx<$WARPS!
+    #else if ZH_CN
+        #name 混乱与扭曲
+        #typedef tx00:tx<$扭曲！
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 7
+    #if EN
+        #name Max Place
+        #typedef tx00:tx<$Greenwarp_has_come!
+    #else if ZH_CN
+        #name 顶区
+        #typedef tx00:tx<$绿色扭曲来了！
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 8
+    #if EN
+        #name Skating Field
+    #else if ZH_CN
+        #name 滑冰场
+    #endif
+#else iflev 9
+    #if EN
+        #name Warp Leaves?
+    #else if ZH_CN
+        #name 扭曲叶？
+    #endif
+#else iflev 10
+    #if EN
+        #define 00:tx<$Welcome_to_Closs...\?
+    #else if ZH_CN
+        #define 00:tx<$欢迎来到Closs……？
+    #endif
+#endif

@@ -1,0 +1,12 @@
+//Access aliases of constants in the game
+#if get_import_arg("once",True)
+    #alias pxl:SCR_LENGTH
+    #alias pxw:SCR_WIDTH
+    #alias each:LENGTH
+    #alias mxl:{pxl}//{each}
+    #alias mxw:{pxw}//{each}
+    #alias ver:GAME_VERSION
+    #alias lang:lang
+    #alias cll_ver:CLL_VERSION
+    #alias dev:{$dev} in {ver}
+#endif

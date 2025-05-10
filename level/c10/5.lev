@@ -1,3 +1,4 @@
+#import std
 #next
 #perfect 35
 1x -- -- 1x 1b
@@ -6,5 +7,4 @@
 -- bb bx bb 1b
 1b 1x -- -- 1x
 fill
-tx<Oh\,_look!
-tx<It's_your_favourite_level!
+_tx_

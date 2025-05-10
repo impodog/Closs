@@ -1,0 +1,45 @@
+//Redefinition of all the named objects
+//Include this in raw file to avoid name changes in other versions
+#if get_import_arg("once",True)
+    #fadd
+        #alias cy:cyan
+        #alias wa:wall
+        #alias bx:box
+        #alias --:empty
+        #alias ds:dest
+        #alias tx:text
+        #alias sp:spike
+        #alias bb:bluebox
+        #alias wk:weakbox
+        #alias cv:conveyor
+        #alias wp:warp
+        #alias gw:greenwarp
+        #alias ic:ice
+        #alias cr:crusher
+        #alias lf:leaf
+        #alias sw:switch
+        #alias nm:nameof
+        #alias hk:hookbox
+        #alias ad:antidest
+        #alias ky:ikey
+        #alias lk:lock
+        #alias wptp:warptype
+        #alias bxtp:boxtype
+        #alias pic:pictureof
+        #alias levsw:level_switcher
+        #alias dl:destroy_lasergun
+        #alias tl:transform_lasergun
+        #alias rf:reflector
+        #alias hd:hide
+        #alias in:instanceof
+        #alias getpic:getpicture
+        #alias none:getnone
+        #alias get_image:get_image
+        #alias true:True
+        #alias false:False
+        #alias up:UP
+        #alias dw:DOWN
+        #alias lt:LEFT
+        #alias rt:RIGHT
+    #endfadd
+#endif

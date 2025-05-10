@@ -1,3 +1,4 @@
+#import std
 #next
 #perfect 75
 cy bx wp -- 1x 1b --
@@ -7,4 +8,4 @@ cy bx wp -- 1x 1b --
 -- -- wp bx bb -- bx
 1x bb -- bx -- -- --
 fill
-tx<WARPS!
+_tx_

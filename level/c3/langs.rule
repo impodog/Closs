@@ -1,0 +1,74 @@
+#import stdlangs
+#iflev 1
+    #if EN
+        #name Bridge over Spike
+        #typedef tx00:tx<Spikes_kill_the_player
+    #else if ZH_CN
+        #name 过刺桥
+        #typedef tx00:tx<刺（spike）杀死玩家
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 2
+    #if EN
+        #name Last Step
+        #typedef tx00:tx<Tips\:You_can_still_win_even_if_you_died
+    #else if ZH_CN
+        #name 最后一步
+        #typedef tx00:tx<提示：就算你死了也能赢
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 3
+    #if EN
+        #name Box Xing
+        #typedef tx00:tx<You_can_control_multiple_players
+    #else if ZH_CN
+        #name 注意箱子过路
+        #typedef tx00:tx<你可以同时控制多个玩家
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 4
+    #if EN
+        #name Around a Spike
+    #else if ZH_CN
+        #name 刺周
+    #endif
+#else iflev 5
+    #if EN
+        #name Push-over
+    #else if ZH_CN
+        #name 推推就好
+    #endif
+#else iflev 6
+    #if EN
+        #name Align for the Best
+    #else if ZH_CN
+        #name 对齐最佳
+    #endif
+#else iflev 7
+    #if EN
+        #name Smash into
+        #typedef tx00:tx<Tips\:Players_are_void_objects
+    #else if ZH_CN
+        #name 撞击并进入
+        #typedef tx00:tx<提示：玩家是虚体
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 8
+    #if EN
+        #name Double Color Swap
+    #else if ZH_CN
+        #name 双色换
+    #endif
+#else iflev 9
+    #if EN
+        #name Synced Movements
+    #else if ZH_CN
+        #name 协同步调
+    #endif
+#else iflev 10
+    #if EN
+        #name Parallel Color Swap
+    #else if ZH_CN
+        #name 平行换色
+    #endif
+#endif

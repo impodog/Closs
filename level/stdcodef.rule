@@ -1,0 +1,48 @@
+//Define stdco.rule as marco
+#if get_import_arg("once",True)
+    //dest rules
+    #define 1x:ds<bx
+    #define 1b:ds<bb
+    #define 1f:ds<lf
+    #define 1k:ds<wk
+    #define 1h:ds<hk
+    #define 1c:ds<cy
+    #define 1e:ds<--
+    #define 1l:ds<lk
+    #define 1y:ds<ky
+    //conveyor rules
+    #define 2u:cv<up
+    #define 2d:cv<dw
+    #define 2l:cv<lt
+    #define 2r:cv<rt
+    //ice overlapping
+    #define 3x:ic,bx
+    #define 3b:ic,bb
+    #define 3s:ic,sw
+    //fixed lasergun directions
+    #define 3u:dl<up
+    #define 3d:dl<dw
+    #define 3r:dl<rt
+    #define 3l:dl<lt
+    #define 3p:tl<up
+    #define 3w:tl<dw
+    #define 3t:tl<rt
+    #define 3f:tl<lt
+    //antidest rules
+    #define 4x:ad<bx
+    #define 4b:ad<bb
+    #define 4f:ad<lf
+    #define 4k:ad<wk
+    #define 4h:ad<hk
+    #define 4c:ad<cy
+    #define nobox:ad<bxtp
+    #define nowarp:ad<wptp
+    #define 4e:ad<--
+    #define 4l:ad<lk
+    #define 4y:ad<ky
+    //reflector directions
+    #define 5l:rf<lt
+    #define 5r:rf<rt
+    #define 5u:rf<up
+    #define 5d:rf<dw
+#endif

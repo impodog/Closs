@@ -1,0 +1,75 @@
+#import stdlangs
+#iflev 1
+    #if EN
+        #name Crackers
+        #typedef tx00:tx<$You_can_destroy_a_weakbox_by_putting_pressure_on_it
+        #define appending:-- -- --
+    #else if ZH_CN
+        #name 碎裂
+        #typedef tx00:tx<$你可以通过对弱箱（weakbox）施压来摧毁它
+        #define appending:-- --
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 2
+    #if EN
+        #name Narrow Convey
+        #typedef tx00:tx<$Conveyors_push_objects_in_one_direction
+        #define appending:-- --
+    #else if ZH_CN
+        #name 窄队
+        #typedef tx00:tx<$传送带（conveyor）单向传输物体
+        #define appending:--
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 3
+    #if EN
+        #name Twist Up
+    #else if ZH_CN
+        #name 变向向上
+    #endif
+#else iflev 4
+    #if EN
+        #name Squeeze
+    #else if ZH_CN
+        #name 挤压
+    #endif
+#else iflev 5
+    #if EN
+        #name Walk Together
+        #typedef tx00:tx<$Players_are_void
+    #else if ZH_CN
+        #name 同行
+        #typedef tx00:tx<$玩家是虚体
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 6
+    #if EN
+        #name Backward Going
+    #else if ZH_CN
+        #name 逆向进行
+    #endif
+#else iflev 7
+    #if EN
+        #name Vertical Color Swap
+    #else if ZH_CN
+        #name 垂直换色
+    #endif
+#else iflev 8
+    #if EN
+        #name Wanna Leave
+    #else if ZH_CN
+        #name 离开倾向
+    #endif
+#else iflev 9
+    #if EN
+        #name Wall Gap
+    #else if ZH_CN
+        #name 墙口
+    #endif
+#else iflev 10
+    #if EN
+        #name Always Turning Around
+    #else if ZH_CN
+        #name 晕头转向
+    #endif
+#endif

@@ -1,0 +1,7 @@
+//Hiding objects
+#if get_import_arg("once",True)
+    #typedef hdwa:hd<(in<wa)
+    #typedef hdbx:hd<(in<bx)
+    #typedef hdky:hd<(in<ky)
+    #typedef hdlk:hd<(in<lk)
+#endif

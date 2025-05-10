@@ -1,0 +1,18 @@
+#iflang en
+    #name Ghost Around
+#else iflang zh-cn
+    #name 幽灵屋
+#import std
+#import hiding
+#typedef hw:hdwa
+#typedef hx:hsbx
+#typedef ke:hdky
+#typedef hl:hslk
+#perfect 100
+hw hw hw hw hw hw hw hw hw hw hw -- hw 1c -- -- hw
+hw hw hw hw hw hw hw hw -- hw hw -- hw hw hw -- hw
+hw cy hw hw -- -- hx hx -- -- hx -- -- -- hw -- --
+-- -- hx -- -- hw hx hx -- hw hw -- hw -- hw hw --
+-- hw -- -- -- hw -- -- hw hw hw -- hw -- -- -- --
+-- hw hw ke hw hw ke hw hw hw hw -- hw hw hw hw hw
+-- -- -- -- -- -- -- -- -- -- hl hl hw hw hw hw hw

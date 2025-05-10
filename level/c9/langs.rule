@@ -1,0 +1,81 @@
+#import stdlangs
+#iflev 1
+    #if EN
+        #name Fallen Tree
+        #typedef tx00:tx<You_can_push_leaves_like_boxes
+        #typedef tx01:tx<A_leaf_falls_due_to_gravity
+        #typedef tx02:tx<In_this_case_it_falls_down
+        #define appending:-- --
+    #else if ZH_CN
+        #name 倒树
+        #typedef tx00:tx<你可以像推箱子一样推叶子（leaf）
+        #typedef tx01:tx<叶子由于重力，会掉落
+        #typedef tx02:tx<此情况下，它向下掉
+        #define appending:-- -- -- --
+    #endif
+    #pymacro _tx_:"tx00\ntx01\ntx02"
+#else iflev 2
+    #if EN
+        #name Automatic
+        #typedef tx00:tx<Switches_change_gravity
+        #typedef tx01:tx<Walk_through_to_flip_them
+    #else if ZH_CN
+        #name 自动
+        #typedef tx00:tx<拉杆（switch）改变重力
+        #typedef tx01:tx<移动来拉动它
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 3
+    #if EN
+        #name Bridge of a Box
+    #else if ZH_CN
+        #name 箱子桥
+    #endif
+#else iflev 4
+    #if EN
+        #name Stuck of Corner
+    #else if ZH_CN
+        #name 角的卡点
+    #endif
+#else iflev 5
+    #if EN
+        #name Flying than Walking
+        #typedef tx00:tx<In_this_level\,_gravity_defaults_to_up
+        #typedef tx01:tx<The_switches'_direction_is_the_same_with_gravity
+    #else if ZH_CN
+        #name 飞，别走
+        #typedef tx00:tx<在这关中，重力默认向上
+        #typedef tx01:tx<开关的方向与重力相同
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 6
+    #if EN
+        #name Still Stones
+    #else if ZH_CN
+        #name 还要石头
+    #endif
+#else iflev 7
+    #if EN
+        #name Switcher Issue
+    #else if ZH_CN
+        #name 开关问题
+    #endif
+#else iflev 8
+    #if EN
+        #name I Just Wanna Loop!
+    #else if ZH_CN
+        #name 我只想绕圈！
+    #endif
+#else iflev 9
+    #if EN
+        #name Perfect Alignment
+    #else if ZH_CN
+        #name 完美对齐
+    #endif
+#else iflev 10
+    #if EN
+        #name Pillar
+    #else if ZH_CN
+        #name 柱
+    #endif
+#endif

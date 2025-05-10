@@ -1,6 +1,8 @@
 #next
 #perfect 12
+#define pe:wall_tele(0,8192022)
+#import addpic
 cy,ds<bx cy -- -- sp
 sp       bx -- wa sp
---       sp -- sp sp
---       -- -- sp sp
+--       sp -- sp pe
+--       -- -- ps ps

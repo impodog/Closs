@@ -1,0 +1,9 @@
+#import std
+#next
+#define bb:bx,ds<bx
+#perfect 14
+-- cy -- -- wa wa
+-- bb bx bx -- wa
+3r -- -- 1x -- --
+-- -- -- -- 3l --
+wa wa 1x -- -- cy

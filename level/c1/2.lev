@@ -1,7 +1,9 @@
 #next
 #perfect 8
+#define pe:wall_tele(0,1982)
+#import addpic
 cy -- wa wa ds<cy wa
 wa -- -- wa --    wa
 wa wa -- -- --    wa
-wa wa wa wa wa    wa
-tx<Walls_block_your_way
+pe wa wa wa pw    wa
+_tx_

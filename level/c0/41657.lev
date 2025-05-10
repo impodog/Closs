@@ -1,0 +1,10 @@
+#import std
+#iflang en
+    #name Astarisk
+#else iflang zh-cn
+    #name 星
+-- -- bx -- --
+-- 1x bx 1x --
+bx bx cy bx bx
+-- 1x bx 1x --
+-- -- bx -- cy

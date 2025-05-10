@@ -1,3 +1,4 @@
+#import std
 #next
 #perfect 14
 ic ic ic ic ic ic ic ic ic
@@ -9,5 +10,3 @@ ic ic ic ic ic ic 3x bb ic
 ic ic ic ic ic ic ic ic 3x
 1x ic -- ic ic ic ic ic ic
 ic ic ic 3x bb ic ic ic wa
-fill
-tx<Skating_field

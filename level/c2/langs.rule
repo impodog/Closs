@@ -1,0 +1,70 @@
+#import stdlangs
+#iflev 1
+    #if EN
+        #name Set in Place
+        #typedef tx00:tx<$Some_levels_require_you_to_complete_multiple_tasks
+        #define appending:-- -- -- -- --
+    #else if ZH_CN
+        #name 归位
+        #typedef tx00:tx<$有些关卡要求你完成多个目标
+        #define appending:--
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 2
+    #if EN
+        #name Chimneys
+    #else if ZH_CN
+        #name 烟囱
+    #endif
+#else iflev 3
+    #if EN
+        #name Spreading Boxes
+    #else if ZH_CN
+        #name 四散分离
+    #endif
+#else iflev 4
+    #if EN
+        #name Down Is Up
+    #else if ZH_CN
+        #name 下即是上
+    #endif
+#else iflev 5
+    #if EN
+        #name Color Swap
+        #typedef tx00:tx<$Bluebox_is_also_a_box\,_but_blue
+    #else if ZH_CN
+        #name 交换颜色
+        #typedef tx00:tx<$蓝箱（bluebox）也是箱子，但颜色不同
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 6
+    #if EN
+        #name Make a Train!
+    #else if ZH_CN
+        #name 拉火车！
+    #endif
+#else iflev 7
+    #if EN
+        #name Box Up, Blue Down
+    #else if ZH_CN
+        #name 箱上蓝下
+    #endif
+#else iflev 8
+    #if EN
+        #name Clean the Path
+    #else if ZH_CN
+        #name 扫除障碍
+    #endif
+#else iflev 9
+    #if EN
+        #name Symmetry pt.1
+    #else if ZH_CN
+        #name 对称之一
+    #endif
+#else iflev 10
+    #if EN
+        #name Left Tunnel
+    #else if ZH_CN
+        #name 左侧隧道
+    #endif
+#endif

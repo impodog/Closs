@@ -1,7 +1,9 @@
 #next 3-1
 #perfect 37
+#define pe:wall_tele(0,123)
+#import addpic
 -- cy --    bb -- ds<bb
 -- -- --    bb bx ds<bb
-wa wa ds<bx -- bx --
-wa wa wa    -- wa --
-wa wa wa    -- -- --
+wa pw ds<bx -- bx --
+pw pw wa    -- wa --
+pe wa wa    -- -- --

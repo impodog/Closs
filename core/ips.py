@@ -19,7 +19,7 @@ from .const import *
 
 pygame.display.set_caption("Closs")
 screen=pygame.display.set_mode((SCR_LENGTH,SCR_WIDTH),
-                               pygame.FULLSCREEN
+                               #pygame.FULLSCREEN
                                )
 pycr.Define_Screen(screen)
 def _f():...

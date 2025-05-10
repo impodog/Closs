@@ -1,0 +1,72 @@
+#import stdlangs
+#iflev 1
+    #if EN
+        #name Back and Forth
+        #typedef tx00:tx<Warps_teleport_void_objects_between_them
+        #typedef tx01:tx<Warps_can_only_teleport_once_every_turn
+        #define appending:-- --
+    #else if ZH_CN
+        #name 前前后后
+        #typedef tx00:tx<扭曲（warp）可以互相传送虚物体
+        #typedef tx01:tx<扭曲一次移动只能传送一次
+        #define appending:--
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 2
+    #if EN
+        #name Farther
+    #else if ZH_CN
+        #name 更远
+    #endif
+#else iflev 3
+    #if EN
+        #name Color No Swap
+        #typedef tx00:tx<Warps_teleport_tags
+    #else if ZH_CN
+        #name 不换色
+        #typedef tx00:tx<扭曲也传送终点标识
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 4
+    #if EN
+        #name Scramble
+    #else if ZH_CN
+        #name 打乱
+    #endif
+#else iflev 5
+    #if EN
+        #name Intersting Shift
+    #else if ZH_CN
+        #name 有趣的交换
+    #endif
+#else iflev 6
+    #if EN
+        #name Warpwall
+    #else if ZH_CN
+        #name 曲墙
+    #endif
+#else iflev 7
+    #if EN
+        #name Overcrowded
+    #else if ZH_CN
+        #name 过于拥挤
+    #endif
+#else iflev 8
+    #if EN
+        #name Everything Blue
+    #else if ZH_CN
+        #name 全员蓝色
+    #endif
+#else iflev 9
+    #if EN
+        #name Sandpit
+    #else if ZH_CN
+        #name 沙坑
+    #endif
+#else iflev 10
+    #if EN
+        #name No One Helping
+    #else if ZH_CN
+        #name 没人帮忙
+    #endif
+#endif

@@ -1,0 +1,51 @@
+//Standard Closs_Object define rule table
+#if get_import_arg("once",True)
+    //dest rules
+    #typedef 1x:ds<bx
+    #typedef 1b:ds<bb
+    #typedef 1f:ds<lf
+    #typedef 1k:ds<wk
+    #typedef 1h:ds<hk
+    #typedef 1c:ds<cy
+    #typedef 1e:ds<--
+    #typedef 1l:ds<lk
+    #typedef 1y:ds<ky
+    //conveyor rules
+    #typedef 2u:cv<up
+    #typedef 2d:cv<dw
+    #typedef 2l:cv<lt
+    #typedef 2r:cv<rt
+    //ice overlapping
+    #define 3x:ic,bx
+    #define 3b:ic,bb
+    #define 3s:ic,sw
+    //fixed lasergun directions
+    #typedef 3u:dl<up
+    #typedef 3d:dl<dw
+    #typedef 3r:dl<rt
+    #typedef 3l:dl<lt
+    #typedef 3p:tl<up
+    #typedef 3w:tl<dw
+    #typedef 3t:tl<rt
+    #typedef 3f:tl<lt
+    //antidest rules
+    #typedef 4x:ad<bx
+    #typedef 4b:ad<bb
+    #typedef 4f:ad<lf
+    #typedef 4k:ad<wk
+    #typedef 4h:ad<hk
+    #typedef 4c:ad<cy
+    #typedef nobox:ad<bxtp
+    #typedef nowarp:ad<wptp
+    #typedef 4e:ad<--
+    #typedef 4l:ad<lk
+    #typedef 4y:ad<ky
+    //reflector directions
+    #typedef 5l:rf<lt
+    #typedef 5r:rf<rt
+    #typedef 5u:rf<up
+    #typedef 5d:rf<dw
+    //fill marco
+    #pymacro fill:('wa '*get_lo().shape[0])[:-1]
+    #pymacro fill(obj):((obj+' ')*get_lo().shape[0])[:-1]
+#endif

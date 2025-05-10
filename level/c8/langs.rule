@@ -1,0 +1,67 @@
+#import stdlangs
+#iflev 1
+    #if EN
+        #name Dangerous Any Way
+        #typedef tx00:tx<Objects_slide_on_ice_in_their_direction
+        #typedef tx01:tx<You_can_also_push_objects_on_ice
+    #else if ZH_CN
+        #name 四面危险
+        #typedef tx00:tx<物体在冰上以进入方向滑行
+        #typedef tx01:tx<你在冰上也能推物体
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 2
+    #if EN
+        #name Knock in the Head
+    #else if ZH_CN
+        #name 重击
+    #endif
+#else iflev 3
+    #if EN
+        #name Over Forward
+    #else if ZH_CN
+        #name 过前
+    #endif
+#else iflev 4
+    #if EN
+        #name Sorting Destination
+    #else if ZH_CN
+        #name 终点整理
+    #endif
+#else iflev 5
+    #if EN
+        #name Curve Action
+    #else if ZH_CN
+        #name 曲线动作
+    #endif
+#else iflev 6
+    #if EN
+        #name Must-Left
+    #else if ZH_CN
+        #name 必左
+    #endif
+#else iflev 7
+    #if EN
+        #name Bottom of the Heart
+    #else if ZH_CN
+        #name 心底
+    #endif
+#else iflev 8
+    #if EN
+        #name Double Vision
+    #else if ZH_CN
+        #name 重影视力
+    #endif
+#else iflev 9
+    #if EN
+        #name Snake Out
+    #else if ZH_CN
+        #name 蛇形出动
+    #endif
+#else iflev 10
+    #if EN
+        #name Weak and Strong
+    #else if ZH_CN
+        #name 弱与强
+    #endif
+#endif

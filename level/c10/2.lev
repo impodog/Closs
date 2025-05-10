@@ -1,3 +1,4 @@
+#import std
 #next
 #perfect 80
 1b -- -- -- bx bx -- --
@@ -11,5 +12,4 @@ bb -- -- -- -- -- -- bx
 -- -- -- -- 1b -- -- bx
 -- -- bx -- bx -- bx --
 fill
-tx<Time_for_some_color_changes
-tx<But_it's_still_very_easy...
+_tx_

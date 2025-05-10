@@ -1,0 +1,88 @@
+#import stdlangs
+#iflev 1
+    #if EN
+        #name Filling
+        #typedef tx00:tx<$Welcome_to_review_chapter
+        #typedef tx01:tx<$Here_we'll_go_through_levels_of_chapters
+        #typedef tx02:tx<$C1\:simple_boxes\&walls
+        #define appending:-- -- --
+    #else if ZH_CN
+        #name 填充
+        #typedef tx00:tx<$欢迎来到复习章节
+        #typedef tx01:tx<$我们会走过代表章节的各关
+        #typedef tx02:tx<$C1\:简单箱子\&墙
+        #define appending:--
+    #endif
+    #pymacro _tx_:"tx00\ntx01\ntx02"
+#else iflev 2
+    #if EN
+        #name Compound Boxs
+    #else if ZH_CN
+        #name 复合箱子
+    #endif
+#else iflev 3
+    #if EN
+        #name Qua Box
+        #typedef tx00:tx<$C2\:multi\-target
+    #else if ZH_CN
+        #name 四重箱
+        #typedef tx00:tx<$C2\:多目标
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 4
+    #if EN
+        #name Coloring
+        #typedef tx00:tx<$C2\:bluebox
+    #else if ZH_CN
+        #name 上色
+        #typedef tx00:tx<$C2\:蓝箱
+    #endif
+#else iflev 5
+    #if EN
+        #name Two Lanes
+        #typedef tx00:tx<C3\:multi-cyan
+    #else if ZH_CN
+        #name 双车道
+        #typedef tx00:tx<C3\:多重cyan
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 6
+    #if EN
+        #name Avoiding Expert
+        #typedef tx00:tx<C3\:spikes
+    #else if ZH_CN
+        #name 躲避专家
+        #typedef tx00:tx<C3\:刺
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 7
+    #if EN
+        #name Forward Together
+        #typedef tx00:tx<C4\:conveyor
+    #else if ZH_CN
+        #name 一起向前
+        #typedef tx00:tx<C4\:传送带
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 8
+    #if EN
+        #name Chase Each Other
+    #else if ZH_CN
+        #name 互追
+    #endif
+#else iflev 9
+    #if EN
+        #name Stable Point
+        #typedef tx00:tx<C4\:weakbox
+    #else if ZH_CN
+        #name 稳定点
+        #typedef tx00:tx<C4\:弱箱
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 10
+    #if EN
+        #name Eviction
+    #else if ZH_CN
+        #name 驱逐
+    #endif
+#endif

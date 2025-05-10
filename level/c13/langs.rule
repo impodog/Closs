@@ -1,0 +1,67 @@
+#import stdlangs
+#iflev 1
+    #if EN
+        #name Vanishing Material
+        #typedef tx00:tx<$A_lock_and_a_key_cancel_each_other
+        #typedef tx01:tx<$They_both_can_be_pushed
+    #else if ZH_CN
+        #name 消失的材料
+        #typedef tx00:tx<$锁（lock）和钥匙（key）可以互相抵消
+        #typedef tx01:tx<$它们都可以被推动
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 2
+    #if EN
+        #name Key Transport
+    #else if ZH_CN
+        #name 钥匙运输
+    #endif
+#else iflev 3
+    #if EN
+        #name Unlock 'em
+    #else if ZH_CN
+        #name 解锁它们
+    #endif
+#else iflev 4
+    #if EN
+        #name Symmetry pt.4
+    #else if ZH_CN
+        #name 对称之四
+    #endif
+#else iflev 5
+    #if EN
+        #name Stay in Sync
+    #else if ZH_CN
+        #name 保持同步
+    #endif
+#else iflev 6
+    #if EN
+        #name Finite Loop
+    #else if ZH_CN
+        #name 有尽循环
+    #endif
+#else iflev 7
+    #if EN
+        #name Metal on Ice
+    #else if ZH_CN
+        #name 冰上金属
+    #endif
+#else iflev 8
+    #if EN
+        #name KL Reactor
+    #else if ZH_CN
+        #name 钥锁反应堆
+    #endif
+#else iflev 9
+    #if EN
+        #name Junkyard
+    #else if ZH_CN
+        #name 垃圾场
+    #endif
+#else iflev 10
+    #if EN
+        #name Subway Station
+    #else if ZH_CN
+        #name 人来人往
+    #endif
+#endif

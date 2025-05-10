@@ -1,0 +1,11 @@
+#iflang en
+    #name Tutotial?
+#else iflang zh-cn
+    #name 教程？
+#import std
+#perfect 8
+wa wa wa wa wa wa wa wa wa wa wa
+-- -- -- -- -- bx -- -- -- -- --
+-- cy -- -- -- bx -- -- -- 1c --
+-- -- -- -- -- bx -- -- -- -- --
+wa wa wa wa wa wa wa wa wa wa wa

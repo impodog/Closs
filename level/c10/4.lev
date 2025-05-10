@@ -1,3 +1,4 @@
+#import std
 #next
 #perfect 57
 -- wa -- -- wa -- -- --
@@ -7,5 +8,4 @@
 -- bb wa -- 2r -- -- --
 -- -- -- wa -- -- -- 1b
 fill
-tx<Now_conveyors_add_to_the_level!
-tx<Also_weakboxes
+_tx_

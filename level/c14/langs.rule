@@ -1,0 +1,19 @@
+#import stdlangs
+#iflev 1
+    #if EN
+        #name Protective Shield
+        #typedef tx00:tx<$Laser_kills_players_when_shot_out
+        #typedef tx01:tx<$But_boxes_block_lasers
+    #else if ZH_CN
+        #name 保护盾牌
+        #typedef tx00:tx<$激光（laser）发射后杀死玩家
+        #typedef tx01:tx<$但箱子阻挡激光
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 2
+    #if EN
+        #name Staircase
+    #else if ZH_CN
+        #name 楼梯
+    #endif
+#endif

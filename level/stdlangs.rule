@@ -1,0 +1,11 @@
+#if get_import_arg("once",True)
+    #fadd
+        #alias EN:false
+        #alias ZH_CN:false
+        #iflang en
+            #alias EN:true
+        #else iflang zh-cn
+            #alias ZH_CN:true
+        #endif
+    #endfadd
+#endif

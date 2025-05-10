@@ -7,5 +7,9 @@
     "tele-warp":false,
     "warp-warp":false,
     "all-perf":false,
-    "finish-gallery":false
+    "finish-gallery":false,
+    "wheres":false,
+    "noway":false,
+    "outoflimits":false,
+    "language":"en"
 }

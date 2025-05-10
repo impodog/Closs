@@ -1,3 +1,4 @@
+#import std
 #next
 #perfect 118
 wa wa wa 1x wa wa wa wa
@@ -9,5 +10,4 @@ wa -- bx bx -- wa -- --
 -- cy -- -- -- -- wa --
 -- -- -- -- -- 1b wa 1x
 fill
-tx<Three!_Three_of_them!
-tx<\(WARNING:EXTREMELY_TEDIOUS\)
+_tx_

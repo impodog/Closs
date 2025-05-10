@@ -1,0 +1,97 @@
+#import stdlangs
+#iflev 0
+    #if EN
+        #typedef 00:tx<$Thanks_a_lot_for_playing!
+        #typedef 01:tx<$I_have_many_plans_in_the_future._And_the_game_should_continue_to_update
+        #typedef 02:tx<$But_it's_enough_for_now!
+        #typedef 03:tx<$If_you_have_met_any_problems\,_send_an_email_to\:_liyz20\@163.com
+        #typedef 04:tx<$Now\,_please_have_a_look_at_those_items_existed!_You_might_notice_some_tags_never_appeared_in_the_main_game
+        #typedef 05:tx<$Also\,_you_can_play_through_the_game_again!_You_should_see_some_changes_to_the_step_counter
+        #typedef 06:tx<$You_will_unlock_something_after_getting_all\-perfect!
+        #typedef 07:tx<$Still\,_you_unlocked_the_sequel!_Start_it_from_the_main_menu
+        #typedef 08:tx<$\(ESC_to_quit_playing\,_or_do_a_move_to_win...nothing\)
+    #else if ZH_CN
+        #typedef 00:tx<$非常感谢游玩！
+        #typedef 01:tx<$我有很多未来计划，游戏也会持续更新
+        #typedef 02:tx<$但现在来说够了！
+        #typedef 03:tx<$如果你有任何问题，发邮件到：_liyz20\@163.com
+        #typedef 04:tx<$现在，看看所有存在过的物品吧！你可能会发现有些标签从未在主游戏里出现
+        #typedef 05:tx<$还有，你可再玩一次游戏！你应该能看到计步器的一些变化
+        #typedef 06:tx<$你完成所有完美步数后，会解锁一些特殊的东西！
+        #typedef 07:tx<$你仍然解锁了续集！从主菜单开始它
+        #typedef 08:tx<$（按ESC退出游玩，或者走一步来赢……没有东西）
+    #endif
+#else iflev 1
+    #if EN
+        #name Chaser
+        #typedef tx00:tx<$Hookboxes_need_to_be_pulled\,_instead_of_pushed
+    #else if ZH_CN
+        #name 跟在身后
+        #typedef tx00:tx<$钩箱（hookbox）需要被拉动，而不是推动
+    #endif
+    #pymacro _tx_:"tx00"
+#else iflev 2
+    #if EN
+        #name Pull It Out
+        #typedef tx00:tx<$Hookboxes_carry_other_movable_objects_while_being_pulled
+        #typedef tx01:tx<$You_still_can_push_hookboxes_along_with_a_box_in_front
+    #else if ZH_CN
+        #name 拉它出来
+        #typedef tx00:tx<$钩箱在被拉动同时带其他可移动物体
+        #typedef tx01:tx<$你还是可以隔着一个箱子推动钩箱
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 3
+    #if EN
+        #name Standard Space
+    #else if ZH_CN
+        #name 标准空间
+    #endif
+#else iflev 4
+    #if EN
+        #name Locked, freed, and stuck
+    #else if ZH_CN
+        #name 锁住，释放，又卡死
+    #endif
+#else iflev 5
+    #if EN
+        #name Leave the Bottom
+    #else if ZH_CN
+        #name 离开底部
+    #endif
+#else iflev 6
+    #if EN
+        #name Knights
+    #else if ZH_CN
+        #name 骑士
+    #endif
+#else iflev 7
+    #if EN
+        #name Together We'll Go Down
+    #else if ZH_CN
+        #name 我们一起向下走
+    #endif
+#else iflev 8
+    #if EN
+        #name Hooked Within
+    #else if ZH_CN
+        #name 钩在其中
+    #endif
+#else iflev 9
+    #if EN
+        #name Symmetry pt.3
+        #typedef tx00:tx<$Look!_That_level_again!
+        #typedef tx01:tx<$Little_bit_of_changes\,_though
+    #else if ZH_CN
+        #name 对称之三
+        #typedef tx00:tx<$看！又是那个关卡！
+        #typedef tx01:tx<$不过有一点点改动
+    #endif
+    #pymacro _tx_:"tx00\ntx01"
+#else iflev 10
+    #if EN
+        #name Cyantific Warp
+    #else ZH_CN
+        #name 青色正确的扭曲
+    #endif
+#endif

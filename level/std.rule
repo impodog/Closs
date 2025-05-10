@@ -1,0 +1,19 @@
+//Imports useful rules(standard rules on every level)
+
+//Optional:codes
+#if get_import_arg("codes",False)
+    #import codes
+#endif
+
+//Optional:stdconst
+#if get_import_arg("const",False)
+    #import stdconst
+#endif
+
+//This is optional standard marco def
+#if get_import_arg("def",False)
+    #import stdcodef
+//Or by default, import stdco
+#else if get_import_arg("co",True)
+    #import stdco
+#endif
